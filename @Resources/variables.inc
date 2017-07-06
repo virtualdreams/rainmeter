@@ -37,7 +37,7 @@ FontColor=#ForeColor#
 FontFace=#FontName#
 FontSize=10
 AntiAlias=1
-ClipString=1
+;ClipString=1
 
 [StyleHBar]
 BarOrientation=Horizontal
