@@ -15,14 +15,16 @@ FontName=Trebuchet MS
 BarWidth=5
 
 SidebarWidth=200
+StartY=43
 
+# --- drives
 Drive1=C:
 Drive2=E:
 Drive3=J:
 
+# --- styles
 [StyleText]
 StringCase=Upper
-;StringEffect=Shadow
 FontColor=#TextColor#
 FontFace=#FontName#
 AntiAlias=1
@@ -31,12 +33,18 @@ ClipString=1
 
 [StyleTitle]
 StringAlign=Left
-;StringCase=Upper
-;StringEffect=Shadow
-;StringStyle=Bold
-;FontEffectColor=0,0,0,50
 FontColor=#ForeColor#
 FontFace=#FontName#
 FontSize=10
 AntiAlias=1
 ClipString=1
+
+[StyleHBar]
+BarOrientation=Horizontal
+BarColor=#BarColor#
+SolidColor=#BarColorFadeStart#
+SolidColor2=#BarColorFadeEnd#
+X=10
+Y=0R
+W=(#SidebarWidth#-20)
+H=#BarWidth#

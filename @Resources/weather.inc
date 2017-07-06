@@ -17,8 +17,9 @@ Day2Conditions=(?siU)<day d="2".*<part p="d">.*<icon>(.*)</icon>.*<t>(.*)</t>
 
 # Styles
 [StyleWeather]
-;FontEffectColor=0,0,0,50
-;StringEffect=Shadow
 FontFace=#FontName#
-AntiAlias=1
 FontColor=#TextColor#
+StringAlign=Right
+FontSize=8
+AntiAlias=1
+ClipString=1
