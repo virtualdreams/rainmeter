@@ -19,8 +19,11 @@ StartY=43
 
 # --- drives
 Drive1=C:
-Drive2=E:
-Drive3=J:
+Drive2=D:
+Drive3=E:
+Drive4=F:
+Drive5=G:
+Drive6=I:
 
 # --- styles
 [StyleText]
